@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;1,400&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+
+
+/*PERSONALIZAÇÃO DA LISTA MENU*/
+
+#menu-h{
+     text-align: center;
+    list-style: none;
+    padding: 0;
+    background-color: rgb(7, 7, 218);
+}
+
+
+#menu-h li{
+    display: inline-block;
+
+
+}
+
+
+#menu-h li a{
+    padding: 30px;
+    display: inline-block;
+    color: #FFF;
+    text-decoration: none;
+
+    
+  
+}
+
+#menu-h li a:hover{
+    background-color: #fff;
+    transition: 1s;
+    color: black;
+}
+
+
+
+/*************PAINEL PROMOCIONAL***********/
+
+.carousel-indicators{
+    display: flex;
+}
+
+.carousel.slide{
+    top: -17px;
+}
